@@ -1,0 +1,71 @@
+/* Reset default page spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background gradient to look like deep space */
+body {
+    background: radial-gradient(circle, #25103a 0%, #0a0410 100%);
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Center alignment container */
+.container {
+    padding: 20px;
+    max-width: 400px;
+}
+
+/* Small top text style */
+.small-header {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #b388ff;
+    margin-bottom: 40px;
+}
+
+/* Big bold main title with a neon glow effect */
+.main-title {
+    font-size: 42px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(179, 136, 255, 0.6);
+}
+
+/* Middle subtitle style */
+.subtitle {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #b388ff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+/* Purple rounded button */
+.join-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #8e24aa 0%, #6a1b9a 100%);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding: 15px 60px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(142, 36, 170, 0.4);
+    transition: transform 0.2s;
+}
+
+/* Make button pop slightly when hovered */
+.join-btn:hover {
+    transform: scale(1.05);
+}
